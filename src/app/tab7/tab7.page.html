@@ -1,12 +1,18 @@
+<ion-header>
+    <ion-toolbar>
+        <div style="text-align:center;margin-top:0px;margin-bottom:24px;height:20px;line-height:20px">
+            <ion-button href="tabs/tab4" class="button">
+                <ion-icon name="arrow-undo-outline"></ion-icon>
+            </ion-button>
+        </div>
+    </ion-toolbar>
+</ion-header>
 <ion-content [fullscreen]="true">
-    <h1 align="center" class="headmargin"><font size="+3"> <strong>
-        An Interesting Question
-    </strong></font></h1>
-    <div style="text-align:center;margin-top:20px;height:20px;line-height:20px">
-        <ion-button href="tabs/tab4" >
-            <ion-icon name="arrow-undo-outline"></ion-icon>
-        </ion-button>
-    </div>
+    <h1 align="center" class="headmargin">
+        <font size="+3"> <strong>
+                An Interesting Question
+            </strong></font>
+    </h1>
     <div class="question">
         {{ q1 }}
     </div>
@@ -25,7 +31,7 @@
         Cauchy-Schwarz Inequality (Calum Heldt):
     </div>
     <ion-item-divider></ion-item-divider>
-    <div class="margin">        
+    <div class="margin">
         {{ cs }}
     </div>
 

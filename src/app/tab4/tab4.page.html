@@ -1,20 +1,26 @@
 <ion-content [fullscreen]="true">
   <ion-content [fullscreen]="true">
-    <h1 align="center" class="headmargin"><font size="+3"> <strong>
-      Math Explorations
-    </strong></font></h1>
-    <h2 align="center" class="margin"><font size="+1">
-      Gaining a Deeper Understanding of Mathematics
-    </font></h2>
+    <h1 align="center" class="headmargin">
+      <font size="+3"> <strong>
+          Math Explorations
+        </strong></font>
+    </h1>
+    <h2 align="center" class="margin">
+      <font size="+1">
+        Gaining a Deeper Understanding of Mathematics
+      </font>
+    </h2>
     <ion-grid>
       <ion-row>
         <ion-col> <!-- 1.1 -->
           <div>
             <ion-card style="height:280px">
               <ion-card-content>
-                <img src="/assets/Math Images/GRI (Fake).png" height="200px">
+                <picture>
+                  <img src="/assets/Math Images/GRI (Fake).png" height="200px">
+                </picture>
                 <ion-button href="tabs/tab3">
-                    Constructions
+                  Constructions
                 </ion-button>
               </ion-card-content>
             </ion-card>
@@ -24,7 +30,10 @@
           <div>
             <ion-card style="height:280px">
               <ion-card-content>
-                <img src="/assets/Math Images/IQ.png" style="height:100px;vertical-align:center;margin-top:20px;margin-bottom:30px">
+                <picture>
+                  <img src="/assets/Math Images/IQ.png"
+                    style="height:100px;vertical-align:center;margin-top:20px;margin-bottom:30px">
+                </picture>
               </ion-card-content>
               <ion-button href="tabs/tab7" class="vac">
                 An Interesting Question
@@ -36,14 +45,17 @@
           <div>
             <ion-card style="height:280px">
               <ion-card-content>
-                <ion-button href="tabs/tab8">
+                <ion-button href="tabs/tab8" class="gal">
                   Galois Theory Research
-                </ion-button>
-              </ion-card-content>
+              </ion-button>
+            </ion-card-content>
+              <picture>
+                <ion-spinner name="circles" class="spinner-large"></ion-spinner>
+              </picture>
             </ion-card>
           </div>
         </ion-col>
       </ion-row>
     </ion-grid>
 
-</ion-content>
+  </ion-content>

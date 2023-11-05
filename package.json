@@ -24,6 +24,7 @@
     "@ionic/angular": "^7.0.0",
     "@types/mathjax": "^0.0.39",
     "emailjs": "^4.0.3",
+    "firebase": "^10.5.2",
     "ionicons": "^7.0.0",
     "mathjax": "^3.2.2",
     "mathjax-full": "^3.2.2",

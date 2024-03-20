@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: 'photos.page.html',
+  styleUrls: ['photos.page.scss']
+})
+export class PhotosPage {
+
+  constructor() {
+  }
+
+}

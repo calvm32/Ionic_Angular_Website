@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 export class DirectivesModule { }
 
 @Component({
-  selector: 'app-tab1',
+  selector: 'app-home',
   templateUrl: 'tab7.page.html',
   styleUrls: ['tab7.page.scss'],
 })

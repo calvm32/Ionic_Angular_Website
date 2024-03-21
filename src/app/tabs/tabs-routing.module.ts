@@ -4,7 +4,7 @@ import { TabsPage } from './tabs.page';
 
 const routes: Routes = [
   {
-    path: 'tabs',
+    path: '',
     component: TabsPage,
     children: [
       {
@@ -16,12 +16,20 @@ const routes: Routes = [
         loadChildren: () => import('../about/about.module').then(m => m.AboutPageModule)
       },
       {
-        path: 'tab3',
+        path: 'math',
+        loadChildren: () => import('../math/math.module').then(m => m.MathPageModule),
+      },
+      {
+        path: 'math/constructions',
         loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
       },
       {
-        path: 'math',
-        loadChildren: () => import('../math/math.module').then(m => m.MathPageModule)
+        path: 'math/question',
+        loadChildren: () => import('../tab7/tab7.module').then(m => m.Tab7PageModule)
+      },
+      {
+        path: 'math/research',
+        loadChildren: () => import('../tab8/tab8.module').then(m => m.Tab8PageModule)
       },
       {
         path: 'art',
@@ -32,23 +40,15 @@ const routes: Routes = [
         loadChildren: () => import('../photos/photos.module').then(m => m.PhotosPageModule)
       },
       {
-        path: 'tab7',
-        loadChildren: () => import('../tab7/tab7.module').then(m => m.Tab7PageModule)
-      },
-      {
-        path: 'tab8',
-        loadChildren: () => import('../tab8/tab8.module').then(m => m.Tab8PageModule)
-      },
-      {
         path: '',
-        redirectTo: '/tabs/home',
+        redirectTo: '/home',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/home',
+    redirectTo: '/home',
     pathMatch: 'full'
   }
 ];

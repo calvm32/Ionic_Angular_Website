@@ -13,8 +13,8 @@ import { MathPageRoutingModule } from './math-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    MathPageRoutingModule
+    MathPageRoutingModule,
   ],
-  declarations: [MathPage]
+  declarations: [MathPage],
 })
 export class MathPageModule {}

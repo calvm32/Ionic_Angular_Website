@@ -13,8 +13,8 @@ import { PhotosPageRoutingModule } from './photos-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    PhotosPageRoutingModule
+    PhotosPageRoutingModule,
   ],
-  declarations: [PhotosPage]
+  declarations: [PhotosPage],
 })
 export class PhotosPageModule {}

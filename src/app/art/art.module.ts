@@ -15,10 +15,9 @@ register();
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    ArtPageRoutingModule
+    ArtPageRoutingModule,
   ],
   declarations: [ArtPage],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-
 export class ArtPageModule {}

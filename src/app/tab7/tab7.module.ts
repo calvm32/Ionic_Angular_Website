@@ -13,8 +13,8 @@ import { Tab7PageRoutingModule } from './tab7-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab7PageRoutingModule
+    Tab7PageRoutingModule,
   ],
-  declarations: [Tab7Page]
+  declarations: [Tab7Page],
 })
 export class Tab7PageModule {}

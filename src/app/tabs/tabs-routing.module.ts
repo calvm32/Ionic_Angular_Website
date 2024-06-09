@@ -9,48 +9,58 @@ const routes: Routes = [
     children: [
       {
         path: 'home',
-        loadChildren: () => import('../home/home.module').then(m => m.HomePageModule)
+        loadChildren: () =>
+          import('../home/home.module').then((m) => m.HomePageModule),
       },
       {
         path: 'about',
-        loadChildren: () => import('../about/about.module').then(m => m.AboutPageModule)
+        loadChildren: () =>
+          import('../about/about.module').then((m) => m.AboutPageModule),
       },
       {
         path: 'math',
-        loadChildren: () => import('../math/math.module').then(m => m.MathPageModule),
+        loadChildren: () =>
+          import('../math/math.module').then((m) => m.MathPageModule),
       },
       {
         path: 'math/constructions',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        loadChildren: () =>
+          import('../tab3/tab3.module').then((m) => m.Tab3PageModule),
       },
       {
         path: 'math/question',
-        loadChildren: () => import('../tab7/tab7.module').then(m => m.Tab7PageModule)
+        loadChildren: () =>
+          import('../tab7/tab7.module').then((m) => m.Tab7PageModule),
       },
       {
         path: 'math/research',
-        loadChildren: () => import('../tab8/tab8.module').then(m => m.Tab8PageModule)
+        loadChildren: () =>
+          import('../research/research.module').then(
+            (m) => m.ResearchPageModule,
+          ),
       },
       {
         path: 'art',
-        loadChildren: () => import('../art/art.module').then(m => m.ArtPageModule)
+        loadChildren: () =>
+          import('../art/art.module').then((m) => m.ArtPageModule),
       },
       {
         path: 'photos',
-        loadChildren: () => import('../photos/photos.module').then(m => m.PhotosPageModule)
+        loadChildren: () =>
+          import('../photos/photos.module').then((m) => m.PhotosPageModule),
       },
       {
         path: '',
         redirectTo: '/home',
-        pathMatch: 'full'
-      }
-    ]
+        pathMatch: 'full',
+      },
+    ],
   },
   {
     path: '',
     redirectTo: '/home',
-    pathMatch: 'full'
-  }
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({

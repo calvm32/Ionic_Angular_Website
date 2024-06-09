@@ -1,722 +1,722 @@
 exports.add = {
   ios: iosAddSvg,
-  md: mdAddSvg
+  md: mdAddSvg,
 };
 exports.addCircle = {
   ios: iosAddCircleSvg,
-  md: mdAddCircleSvg
+  md: mdAddCircleSvg,
 };
 exports.addCircleOutline = {
   ios: iosAddCircleOutlineSvg,
-  md: mdAddCircleOutlineSvg
+  md: mdAddCircleOutlineSvg,
 };
 exports.airplane = {
   ios: iosAirplaneSvg,
-  md: mdAirplaneSvg
+  md: mdAirplaneSvg,
 };
 exports.alarm = {
   ios: iosAlarmSvg,
-  md: mdAlarmSvg
+  md: mdAlarmSvg,
 };
 exports.albums = {
   ios: iosAlbumsSvg,
-  md: mdAlbumsSvg
+  md: mdAlbumsSvg,
 };
 exports.alert = {
   ios: iosAlertSvg,
-  md: mdAlertSvg
+  md: mdAlertSvg,
 };
 exports.americanFootball = {
   ios: iosAmericanFootballSvg,
-  md: mdAmericanFootballSvg
+  md: mdAmericanFootballSvg,
 };
 exports.analytics = {
   ios: iosAnalyticsSvg,
-  md: mdAnalyticsSvg
+  md: mdAnalyticsSvg,
 };
 exports.aperture = {
   ios: iosApertureSvg,
-  md: mdApertureSvg
+  md: mdApertureSvg,
 };
 exports.apps = {
   ios: iosAppsSvg,
-  md: mdAppsSvg
+  md: mdAppsSvg,
 };
 exports.appstore = {
   ios: iosAppstoreSvg,
-  md: mdAppstoreSvg
+  md: mdAppstoreSvg,
 };
 exports.archive = {
   ios: iosArchiveSvg,
-  md: mdArchiveSvg
+  md: mdArchiveSvg,
 };
 exports.arrowBack = {
   ios: iosArrowBackSvg,
-  md: mdArrowBackSvg
+  md: mdArrowBackSvg,
 };
 exports.arrowDown = {
   ios: iosArrowDownSvg,
-  md: mdArrowDownSvg
+  md: mdArrowDownSvg,
 };
 exports.arrowDropdown = {
   ios: iosArrowDropdownSvg,
-  md: mdArrowDropdownSvg
+  md: mdArrowDropdownSvg,
 };
 exports.arrowDropdownCircle = {
   ios: iosArrowDropdownCircleSvg,
-  md: mdArrowDropdownCircleSvg
+  md: mdArrowDropdownCircleSvg,
 };
 exports.arrowDropleft = {
   ios: iosArrowDropleftSvg,
-  md: mdArrowDropleftSvg
+  md: mdArrowDropleftSvg,
 };
 exports.arrowDropleftCircle = {
   ios: iosArrowDropleftCircleSvg,
-  md: mdArrowDropleftCircleSvg
+  md: mdArrowDropleftCircleSvg,
 };
 exports.arrowDropright = {
   ios: iosArrowDroprightSvg,
-  md: mdArrowDroprightSvg
+  md: mdArrowDroprightSvg,
 };
 exports.arrowDroprightCircle = {
   ios: iosArrowDroprightCircleSvg,
-  md: mdArrowDroprightCircleSvg
+  md: mdArrowDroprightCircleSvg,
 };
 exports.arrowDropup = {
   ios: iosArrowDropupSvg,
-  md: mdArrowDropupSvg
+  md: mdArrowDropupSvg,
 };
 exports.arrowDropupCircle = {
   ios: iosArrowDropupCircleSvg,
-  md: mdArrowDropupCircleSvg
+  md: mdArrowDropupCircleSvg,
 };
 exports.arrowForward = {
   ios: iosArrowForwardSvg,
-  md: mdArrowForwardSvg
+  md: mdArrowForwardSvg,
 };
 exports.arrowRoundBack = {
   ios: iosArrowRoundBackSvg,
-  md: mdArrowRoundBackSvg
+  md: mdArrowRoundBackSvg,
 };
 exports.arrowRoundDown = {
   ios: iosArrowRoundDownSvg,
-  md: mdArrowRoundDownSvg
+  md: mdArrowRoundDownSvg,
 };
 exports.arrowRoundForward = {
   ios: iosArrowRoundForwardSvg,
-  md: mdArrowRoundForwardSvg
+  md: mdArrowRoundForwardSvg,
 };
 exports.arrowRoundUp = {
   ios: iosArrowRoundUpSvg,
-  md: mdArrowRoundUpSvg
+  md: mdArrowRoundUpSvg,
 };
 exports.arrowUp = {
   ios: iosArrowUpSvg,
-  md: mdArrowUpSvg
+  md: mdArrowUpSvg,
 };
 exports.at = {
   ios: iosAtSvg,
-  md: mdAtSvg
+  md: mdAtSvg,
 };
 exports.attach = {
   ios: iosAttachSvg,
-  md: mdAttachSvg
+  md: mdAttachSvg,
 };
 exports.backspace = {
   ios: iosBackspaceSvg,
-  md: mdBackspaceSvg
+  md: mdBackspaceSvg,
 };
 exports.barcode = {
   ios: iosBarcodeSvg,
-  md: mdBarcodeSvg
+  md: mdBarcodeSvg,
 };
 exports.baseball = {
   ios: iosBaseballSvg,
-  md: mdBaseballSvg
+  md: mdBaseballSvg,
 };
 exports.basket = {
   ios: iosBasketSvg,
-  md: mdBasketSvg
+  md: mdBasketSvg,
 };
 exports.basketball = {
   ios: iosBasketballSvg,
-  md: mdBasketballSvg
+  md: mdBasketballSvg,
 };
 exports.batteryCharging = {
   ios: iosBatteryChargingSvg,
-  md: mdBatteryChargingSvg
+  md: mdBatteryChargingSvg,
 };
 exports.batteryDead = {
   ios: iosBatteryDeadSvg,
-  md: mdBatteryDeadSvg
+  md: mdBatteryDeadSvg,
 };
 exports.batteryFull = {
   ios: iosBatteryFullSvg,
-  md: mdBatteryFullSvg
+  md: mdBatteryFullSvg,
 };
 exports.beaker = {
   ios: iosBeakerSvg,
-  md: mdBeakerSvg
+  md: mdBeakerSvg,
 };
 exports.bed = {
   ios: iosBedSvg,
-  md: mdBedSvg
+  md: mdBedSvg,
 };
 exports.beer = {
   ios: iosBeerSvg,
-  md: mdBeerSvg
+  md: mdBeerSvg,
 };
 exports.bicycle = {
   ios: iosBicycleSvg,
-  md: mdBicycleSvg
+  md: mdBicycleSvg,
 };
 exports.bluetooth = {
   ios: iosBluetoothSvg,
-  md: mdBluetoothSvg
+  md: mdBluetoothSvg,
 };
 exports.boat = {
   ios: iosBoatSvg,
-  md: mdBoatSvg
+  md: mdBoatSvg,
 };
 exports.body = {
   ios: iosBodySvg,
-  md: mdBodySvg
+  md: mdBodySvg,
 };
 exports.bonfire = {
   ios: iosBonfireSvg,
-  md: mdBonfireSvg
+  md: mdBonfireSvg,
 };
 exports.book = {
   ios: iosBookSvg,
-  md: mdBookSvg
+  md: mdBookSvg,
 };
 exports.bookmark = {
   ios: iosBookmarkSvg,
-  md: mdBookmarkSvg
+  md: mdBookmarkSvg,
 };
 exports.bookmarks = {
   ios: iosBookmarksSvg,
-  md: mdBookmarksSvg
+  md: mdBookmarksSvg,
 };
 exports.bowtie = {
   ios: iosBowtieSvg,
-  md: mdBowtieSvg
+  md: mdBowtieSvg,
 };
 exports.briefcase = {
   ios: iosBriefcaseSvg,
-  md: mdBriefcaseSvg
+  md: mdBriefcaseSvg,
 };
 exports.browsers = {
   ios: iosBrowsersSvg,
-  md: mdBrowsersSvg
+  md: mdBrowsersSvg,
 };
 exports.brush = {
   ios: iosBrushSvg,
-  md: mdBrushSvg
+  md: mdBrushSvg,
 };
 exports.bug = {
   ios: iosBugSvg,
-  md: mdBugSvg
+  md: mdBugSvg,
 };
 exports.build = {
   ios: iosBuildSvg,
-  md: mdBuildSvg
+  md: mdBuildSvg,
 };
 exports.bulb = {
   ios: iosBulbSvg,
-  md: mdBulbSvg
+  md: mdBulbSvg,
 };
 exports.bus = {
   ios: iosBusSvg,
-  md: mdBusSvg
+  md: mdBusSvg,
 };
 exports.business = {
   ios: iosBusinessSvg,
-  md: mdBusinessSvg
+  md: mdBusinessSvg,
 };
 exports.cafe = {
   ios: iosCafeSvg,
-  md: mdCafeSvg
+  md: mdCafeSvg,
 };
 exports.calculator = {
   ios: iosCalculatorSvg,
-  md: mdCalculatorSvg
+  md: mdCalculatorSvg,
 };
 exports.calendar = {
   ios: iosCalendarSvg,
-  md: mdCalendarSvg
+  md: mdCalendarSvg,
 };
 exports.call = {
   ios: iosCallSvg,
-  md: mdCallSvg
+  md: mdCallSvg,
 };
 exports.camera = {
   ios: iosCameraSvg,
-  md: mdCameraSvg
+  md: mdCameraSvg,
 };
 exports.car = {
   ios: iosCarSvg,
-  md: mdCarSvg
+  md: mdCarSvg,
 };
 exports.card = {
   ios: iosCardSvg,
-  md: mdCardSvg
+  md: mdCardSvg,
 };
 exports.cart = {
   ios: iosCartSvg,
-  md: mdCartSvg
+  md: mdCartSvg,
 };
 exports.cash = {
   ios: iosCashSvg,
-  md: mdCashSvg
+  md: mdCashSvg,
 };
 exports.cellular = {
   ios: iosCellularSvg,
-  md: mdCellularSvg
+  md: mdCellularSvg,
 };
 exports.chatboxes = {
   ios: iosChatboxesSvg,
-  md: mdChatboxesSvg
+  md: mdChatboxesSvg,
 };
 exports.chatbubbles = {
   ios: iosChatbubblesSvg,
-  md: mdChatbubblesSvg
+  md: mdChatbubblesSvg,
 };
 exports.checkbox = {
   ios: iosCheckboxSvg,
-  md: mdCheckboxSvg
+  md: mdCheckboxSvg,
 };
 exports.checkboxOutline = {
   ios: iosCheckboxOutlineSvg,
-  md: mdCheckboxOutlineSvg
+  md: mdCheckboxOutlineSvg,
 };
 exports.checkmark = {
   ios: iosCheckmarkSvg,
-  md: mdCheckmarkSvg
+  md: mdCheckmarkSvg,
 };
 exports.checkmarkCircle = {
   ios: iosCheckmarkCircleSvg,
-  md: mdCheckmarkCircleSvg
+  md: mdCheckmarkCircleSvg,
 };
 exports.checkmarkCircleOutline = {
   ios: iosCheckmarkCircleOutlineSvg,
-  md: mdCheckmarkCircleOutlineSvg
+  md: mdCheckmarkCircleOutlineSvg,
 };
 exports.clipboard = {
   ios: iosClipboardSvg,
-  md: mdClipboardSvg
+  md: mdClipboardSvg,
 };
 exports.clock = {
   ios: iosClockSvg,
-  md: mdClockSvg
+  md: mdClockSvg,
 };
 exports.close = {
   ios: iosCloseSvg,
-  md: mdCloseSvg
+  md: mdCloseSvg,
 };
 exports.closeCircle = {
   ios: iosCloseCircleSvg,
-  md: mdCloseCircleSvg
+  md: mdCloseCircleSvg,
 };
 exports.closeCircleOutline = {
   ios: iosCloseCircleOutlineSvg,
-  md: mdCloseCircleOutlineSvg
+  md: mdCloseCircleOutlineSvg,
 };
 exports.cloud = {
   ios: iosCloudSvg,
-  md: mdCloudSvg
+  md: mdCloudSvg,
 };
 exports.cloudCircle = {
   ios: iosCloudCircleSvg,
-  md: mdCloudCircleSvg
+  md: mdCloudCircleSvg,
 };
 exports.cloudDone = {
   ios: iosCloudDoneSvg,
-  md: mdCloudDoneSvg
+  md: mdCloudDoneSvg,
 };
 exports.cloudDownload = {
   ios: iosCloudDownloadSvg,
-  md: mdCloudDownloadSvg
+  md: mdCloudDownloadSvg,
 };
 exports.cloudOutline = {
   ios: iosCloudOutlineSvg,
-  md: mdCloudOutlineSvg
+  md: mdCloudOutlineSvg,
 };
 exports.cloudUpload = {
   ios: iosCloudUploadSvg,
-  md: mdCloudUploadSvg
+  md: mdCloudUploadSvg,
 };
 exports.cloudy = {
   ios: iosCloudySvg,
-  md: mdCloudySvg
+  md: mdCloudySvg,
 };
 exports.cloudyNight = {
   ios: iosCloudyNightSvg,
-  md: mdCloudyNightSvg
+  md: mdCloudyNightSvg,
 };
 exports.code = {
   ios: iosCodeSvg,
-  md: mdCodeSvg
+  md: mdCodeSvg,
 };
 exports.codeDownload = {
   ios: iosCodeDownloadSvg,
-  md: mdCodeDownloadSvg
+  md: mdCodeDownloadSvg,
 };
 exports.codeWorking = {
   ios: iosCodeWorkingSvg,
-  md: mdCodeWorkingSvg
+  md: mdCodeWorkingSvg,
 };
 exports.cog = {
   ios: iosCogSvg,
-  md: mdCogSvg
+  md: mdCogSvg,
 };
 exports.colorFill = {
   ios: iosColorFillSvg,
-  md: mdColorFillSvg
+  md: mdColorFillSvg,
 };
 exports.colorFilter = {
   ios: iosColorFilterSvg,
-  md: mdColorFilterSvg
+  md: mdColorFilterSvg,
 };
 exports.colorPalette = {
   ios: iosColorPaletteSvg,
-  md: mdColorPaletteSvg
+  md: mdColorPaletteSvg,
 };
 exports.colorWand = {
   ios: iosColorWandSvg,
-  md: mdColorWandSvg
+  md: mdColorWandSvg,
 };
 exports.compass = {
   ios: iosCompassSvg,
-  md: mdCompassSvg
+  md: mdCompassSvg,
 };
 exports.construct = {
   ios: iosConstructSvg,
-  md: mdConstructSvg
+  md: mdConstructSvg,
 };
 exports.contact = {
   ios: iosContactSvg,
-  md: mdContactSvg
+  md: mdContactSvg,
 };
 exports.contacts = {
   ios: iosContactsSvg,
-  md: mdContactsSvg
+  md: mdContactsSvg,
 };
 exports.contract = {
   ios: iosContractSvg,
-  md: mdContractSvg
+  md: mdContractSvg,
 };
 exports.contrast = {
   ios: iosContrastSvg,
-  md: mdContrastSvg
+  md: mdContrastSvg,
 };
 exports.copy = {
   ios: iosCopySvg,
-  md: mdCopySvg
+  md: mdCopySvg,
 };
 exports.create = {
   ios: iosCreateSvg,
-  md: mdCreateSvg
+  md: mdCreateSvg,
 };
 exports.crop = {
   ios: iosCropSvg,
-  md: mdCropSvg
+  md: mdCropSvg,
 };
 exports.cube = {
   ios: iosCubeSvg,
-  md: mdCubeSvg
+  md: mdCubeSvg,
 };
 exports.cut = {
   ios: iosCutSvg,
-  md: mdCutSvg
+  md: mdCutSvg,
 };
 exports.desktop = {
   ios: iosDesktopSvg,
-  md: mdDesktopSvg
+  md: mdDesktopSvg,
 };
 exports.disc = {
   ios: iosDiscSvg,
-  md: mdDiscSvg
+  md: mdDiscSvg,
 };
 exports.document = {
   ios: iosDocumentSvg,
-  md: mdDocumentSvg
+  md: mdDocumentSvg,
 };
 exports.doneAll = {
   ios: iosDoneAllSvg,
-  md: mdDoneAllSvg
+  md: mdDoneAllSvg,
 };
 exports.download = {
   ios: iosDownloadSvg,
-  md: mdDownloadSvg
+  md: mdDownloadSvg,
 };
 exports.easel = {
   ios: iosEaselSvg,
-  md: mdEaselSvg
+  md: mdEaselSvg,
 };
 exports.egg = {
   ios: iosEggSvg,
-  md: mdEggSvg
+  md: mdEggSvg,
 };
 exports.exit = {
   ios: iosExitSvg,
-  md: mdExitSvg
+  md: mdExitSvg,
 };
 exports.expand = {
   ios: iosExpandSvg,
-  md: mdExpandSvg
+  md: mdExpandSvg,
 };
 exports.eye = {
   ios: iosEyeSvg,
-  md: mdEyeSvg
+  md: mdEyeSvg,
 };
 exports.eyeOff = {
   ios: iosEyeOffSvg,
-  md: mdEyeOffSvg
+  md: mdEyeOffSvg,
 };
 exports.fastforward = {
   ios: iosFastforwardSvg,
-  md: mdFastforwardSvg
+  md: mdFastforwardSvg,
 };
 exports.female = {
   ios: iosFemaleSvg,
-  md: mdFemaleSvg
+  md: mdFemaleSvg,
 };
 exports.filing = {
   ios: iosFilingSvg,
-  md: mdFilingSvg
+  md: mdFilingSvg,
 };
 exports.film = {
   ios: iosFilmSvg,
-  md: mdFilmSvg
+  md: mdFilmSvg,
 };
 exports.fingerPrint = {
   ios: iosFingerPrintSvg,
-  md: mdFingerPrintSvg
+  md: mdFingerPrintSvg,
 };
 exports.fitness = {
   ios: iosFitnessSvg,
-  md: mdFitnessSvg
+  md: mdFitnessSvg,
 };
 exports.flag = {
   ios: iosFlagSvg,
-  md: mdFlagSvg
+  md: mdFlagSvg,
 };
 exports.flame = {
   ios: iosFlameSvg,
-  md: mdFlameSvg
+  md: mdFlameSvg,
 };
 exports.flash = {
   ios: iosFlashSvg,
-  md: mdFlashSvg
+  md: mdFlashSvg,
 };
 exports.flashOff = {
   ios: iosFlashOffSvg,
-  md: mdFlashOffSvg
+  md: mdFlashOffSvg,
 };
 exports.flashlight = {
   ios: iosFlashlightSvg,
-  md: mdFlashlightSvg
+  md: mdFlashlightSvg,
 };
 exports.flask = {
   ios: iosFlaskSvg,
-  md: mdFlaskSvg
+  md: mdFlaskSvg,
 };
 exports.flower = {
   ios: iosFlowerSvg,
-  md: mdFlowerSvg
+  md: mdFlowerSvg,
 };
 exports.folder = {
   ios: iosFolderSvg,
-  md: mdFolderSvg
+  md: mdFolderSvg,
 };
 exports.folderOpen = {
   ios: iosFolderOpenSvg,
-  md: mdFolderOpenSvg
+  md: mdFolderOpenSvg,
 };
 exports.football = {
   ios: iosFootballSvg,
-  md: mdFootballSvg
+  md: mdFootballSvg,
 };
 exports.funnel = {
   ios: iosFunnelSvg,
-  md: mdFunnelSvg
+  md: mdFunnelSvg,
 };
 exports.gift = {
   ios: iosGiftSvg,
-  md: mdGiftSvg
+  md: mdGiftSvg,
 };
 exports.gitBranch = {
   ios: iosGitBranchSvg,
-  md: mdGitBranchSvg
+  md: mdGitBranchSvg,
 };
 exports.gitCommit = {
   ios: iosGitCommitSvg,
-  md: mdGitCommitSvg
+  md: mdGitCommitSvg,
 };
 exports.gitCompare = {
   ios: iosGitCompareSvg,
-  md: mdGitCompareSvg
+  md: mdGitCompareSvg,
 };
 exports.gitMerge = {
   ios: iosGitMergeSvg,
-  md: mdGitMergeSvg
+  md: mdGitMergeSvg,
 };
 exports.gitNetwork = {
   ios: iosGitNetworkSvg,
-  md: mdGitNetworkSvg
+  md: mdGitNetworkSvg,
 };
 exports.gitPullRequest = {
   ios: iosGitPullRequestSvg,
-  md: mdGitPullRequestSvg
+  md: mdGitPullRequestSvg,
 };
 exports.glasses = {
   ios: iosGlassesSvg,
-  md: mdGlassesSvg
+  md: mdGlassesSvg,
 };
 exports.globe = {
   ios: iosGlobeSvg,
-  md: mdGlobeSvg
+  md: mdGlobeSvg,
 };
 exports.grid = {
   ios: iosGridSvg,
-  md: mdGridSvg
+  md: mdGridSvg,
 };
 exports.hammer = {
   ios: iosHammerSvg,
-  md: mdHammerSvg
+  md: mdHammerSvg,
 };
 exports.hand = {
   ios: iosHandSvg,
-  md: mdHandSvg
+  md: mdHandSvg,
 };
 exports.happy = {
   ios: iosHappySvg,
-  md: mdHappySvg
+  md: mdHappySvg,
 };
 exports.headset = {
   ios: iosHeadsetSvg,
-  md: mdHeadsetSvg
+  md: mdHeadsetSvg,
 };
 exports.heart = {
   ios: iosHeartSvg,
-  md: mdHeartSvg
+  md: mdHeartSvg,
 };
 exports.heartDislike = {
   ios: iosHeartDislikeSvg,
-  md: mdHeartDislikeSvg
+  md: mdHeartDislikeSvg,
 };
 exports.heartEmpty = {
   ios: iosHeartEmptySvg,
-  md: mdHeartEmptySvg
+  md: mdHeartEmptySvg,
 };
 exports.heartHalf = {
   ios: iosHeartHalfSvg,
-  md: mdHeartHalfSvg
+  md: mdHeartHalfSvg,
 };
 exports.help = {
   ios: iosHelpSvg,
-  md: mdHelpSvg
+  md: mdHelpSvg,
 };
 exports.helpBuoy = {
   ios: iosHelpBuoySvg,
-  md: mdHelpBuoySvg
+  md: mdHelpBuoySvg,
 };
 exports.helpCircle = {
   ios: iosHelpCircleSvg,
-  md: mdHelpCircleSvg
+  md: mdHelpCircleSvg,
 };
 exports.helpCircleOutline = {
   ios: iosHelpCircleOutlineSvg,
-  md: mdHelpCircleOutlineSvg
+  md: mdHelpCircleOutlineSvg,
 };
 exports.home = {
   ios: iosHomeSvg,
-  md: mdHomeSvg
+  md: mdHomeSvg,
 };
 exports.hourglass = {
   ios: iosHourglassSvg,
-  md: mdHourglassSvg
+  md: mdHourglassSvg,
 };
 exports.iceCream = {
   ios: iosIceCreamSvg,
-  md: mdIceCreamSvg
+  md: mdIceCreamSvg,
 };
 exports.image = {
   ios: iosImageSvg,
-  md: mdImageSvg
+  md: mdImageSvg,
 };
 exports.images = {
   ios: iosImagesSvg,
-  md: mdImagesSvg
+  md: mdImagesSvg,
 };
 exports.infinite = {
   ios: iosInfiniteSvg,
-  md: mdInfiniteSvg
+  md: mdInfiniteSvg,
 };
 exports.information = {
   ios: iosInformationSvg,
-  md: mdInformationSvg
+  md: mdInformationSvg,
 };
 exports.informationCircle = {
   ios: iosInformationCircleSvg,
-  md: mdInformationCircleSvg
+  md: mdInformationCircleSvg,
 };
 exports.informationCircleOutline = {
   ios: iosInformationCircleOutlineSvg,
-  md: mdInformationCircleOutlineSvg
+  md: mdInformationCircleOutlineSvg,
 };
 exports.jet = {
   ios: iosJetSvg,
-  md: mdJetSvg
+  md: mdJetSvg,
 };
 exports.journal = {
   ios: iosJournalSvg,
-  md: mdJournalSvg
+  md: mdJournalSvg,
 };
 exports.key = {
   ios: iosKeySvg,
-  md: mdKeySvg
+  md: mdKeySvg,
 };
 exports.keypad = {
   ios: iosKeypadSvg,
-  md: mdKeypadSvg
+  md: mdKeypadSvg,
 };
 exports.laptop = {
   ios: iosLaptopSvg,
-  md: mdLaptopSvg
+  md: mdLaptopSvg,
 };
 exports.leaf = {
   ios: iosLeafSvg,
-  md: mdLeafSvg
+  md: mdLeafSvg,
 };
 exports.link = {
   ios: iosLinkSvg,
-  md: mdLinkSvg
+  md: mdLinkSvg,
 };
 exports.list = {
   ios: iosListSvg,
-  md: mdListSvg
+  md: mdListSvg,
 };
 exports.listBox = {
   ios: iosListBoxSvg,
-  md: mdListBoxSvg
+  md: mdListBoxSvg,
 };
 exports.locate = {
   ios: iosLocateSvg,
-  md: mdLocateSvg
+  md: mdLocateSvg,
 };
 exports.lock = {
   ios: iosLockSvg,
-  md: mdLockSvg
+  md: mdLockSvg,
 };
 exports.logIn = {
   ios: iosLogInSvg,
-  md: mdLogInSvg
+  md: mdLogInSvg,
 };
 exports.logOut = {
   ios: iosLogOutSvg,
-  md: mdLogOutSvg
+  md: mdLogOutSvg,
 };
 exports.logoAndroid = logoAndroidSvg;
 exports.logoAngular = logoAngularSvg;
@@ -782,549 +782,549 @@ exports.logoYen = logoYenSvg;
 exports.logoYoutube = logoYoutubeSvg;
 exports.magnet = {
   ios: iosMagnetSvg,
-  md: mdMagnetSvg
+  md: mdMagnetSvg,
 };
 exports.mail = {
   ios: iosMailSvg,
-  md: mdMailSvg
+  md: mdMailSvg,
 };
 exports.mailOpen = {
   ios: iosMailOpenSvg,
-  md: mdMailOpenSvg
+  md: mdMailOpenSvg,
 };
 exports.mailUnread = {
   ios: iosMailUnreadSvg,
-  md: mdMailUnreadSvg
+  md: mdMailUnreadSvg,
 };
 exports.male = {
   ios: iosMaleSvg,
-  md: mdMaleSvg
+  md: mdMaleSvg,
 };
 exports.man = {
   ios: iosManSvg,
-  md: mdManSvg
+  md: mdManSvg,
 };
 exports.map = {
   ios: iosMapSvg,
-  md: mdMapSvg
+  md: mdMapSvg,
 };
 exports.medal = {
   ios: iosMedalSvg,
-  md: mdMedalSvg
+  md: mdMedalSvg,
 };
 exports.medical = {
   ios: iosMedicalSvg,
-  md: mdMedicalSvg
+  md: mdMedicalSvg,
 };
 exports.medkit = {
   ios: iosMedkitSvg,
-  md: mdMedkitSvg
+  md: mdMedkitSvg,
 };
 exports.megaphone = {
   ios: iosMegaphoneSvg,
-  md: mdMegaphoneSvg
+  md: mdMegaphoneSvg,
 };
 exports.menu = {
   ios: iosMenuSvg,
-  md: mdMenuSvg
+  md: mdMenuSvg,
 };
 exports.mic = {
   ios: iosMicSvg,
-  md: mdMicSvg
+  md: mdMicSvg,
 };
 exports.micOff = {
   ios: iosMicOffSvg,
-  md: mdMicOffSvg
+  md: mdMicOffSvg,
 };
 exports.microphone = {
   ios: iosMicrophoneSvg,
-  md: mdMicrophoneSvg
+  md: mdMicrophoneSvg,
 };
 exports.moon = {
   ios: iosMoonSvg,
-  md: mdMoonSvg
+  md: mdMoonSvg,
 };
 exports.more = {
   ios: iosMoreSvg,
-  md: mdMoreSvg
+  md: mdMoreSvg,
 };
 exports.move = {
   ios: iosMoveSvg,
-  md: mdMoveSvg
+  md: mdMoveSvg,
 };
 exports.musicalNote = {
   ios: iosMusicalNoteSvg,
-  md: mdMusicalNoteSvg
+  md: mdMusicalNoteSvg,
 };
 exports.musicalNotes = {
   ios: iosMusicalNotesSvg,
-  md: mdMusicalNotesSvg
+  md: mdMusicalNotesSvg,
 };
 exports.navigate = {
   ios: iosNavigateSvg,
-  md: mdNavigateSvg
+  md: mdNavigateSvg,
 };
 exports.notifications = {
   ios: iosNotificationsSvg,
-  md: mdNotificationsSvg
+  md: mdNotificationsSvg,
 };
 exports.notificationsOff = {
   ios: iosNotificationsOffSvg,
-  md: mdNotificationsOffSvg
+  md: mdNotificationsOffSvg,
 };
 exports.notificationsOutline = {
   ios: iosNotificationsOutlineSvg,
-  md: mdNotificationsOutlineSvg
+  md: mdNotificationsOutlineSvg,
 };
 exports.nuclear = {
   ios: iosNuclearSvg,
-  md: mdNuclearSvg
+  md: mdNuclearSvg,
 };
 exports.nutrition = {
   ios: iosNutritionSvg,
-  md: mdNutritionSvg
+  md: mdNutritionSvg,
 };
 exports.open = {
   ios: iosOpenSvg,
-  md: mdOpenSvg
+  md: mdOpenSvg,
 };
 exports.options = {
   ios: iosOptionsSvg,
-  md: mdOptionsSvg
+  md: mdOptionsSvg,
 };
 exports.outlet = {
   ios: iosOutletSvg,
-  md: mdOutletSvg
+  md: mdOutletSvg,
 };
 exports.paper = {
   ios: iosPaperSvg,
-  md: mdPaperSvg
+  md: mdPaperSvg,
 };
 exports.paperPlane = {
   ios: iosPaperPlaneSvg,
-  md: mdPaperPlaneSvg
+  md: mdPaperPlaneSvg,
 };
 exports.partlySunny = {
   ios: iosPartlySunnySvg,
-  md: mdPartlySunnySvg
+  md: mdPartlySunnySvg,
 };
 exports.pause = {
   ios: iosPauseSvg,
-  md: mdPauseSvg
+  md: mdPauseSvg,
 };
 exports.paw = {
   ios: iosPawSvg,
-  md: mdPawSvg
+  md: mdPawSvg,
 };
 exports.people = {
   ios: iosPeopleSvg,
-  md: mdPeopleSvg
+  md: mdPeopleSvg,
 };
 exports.person = {
   ios: iosPersonSvg,
-  md: mdPersonSvg
+  md: mdPersonSvg,
 };
 exports.personAdd = {
   ios: iosPersonAddSvg,
-  md: mdPersonAddSvg
+  md: mdPersonAddSvg,
 };
 exports.phoneLandscape = {
   ios: iosPhoneLandscapeSvg,
-  md: mdPhoneLandscapeSvg
+  md: mdPhoneLandscapeSvg,
 };
 exports.phonePortrait = {
   ios: iosPhonePortraitSvg,
-  md: mdPhonePortraitSvg
+  md: mdPhonePortraitSvg,
 };
 exports.photos = {
   ios: iosPhotosSvg,
-  md: mdPhotosSvg
+  md: mdPhotosSvg,
 };
 exports.pie = {
   ios: iosPieSvg,
-  md: mdPieSvg
+  md: mdPieSvg,
 };
 exports.pin = {
   ios: iosPinSvg,
-  md: mdPinSvg
+  md: mdPinSvg,
 };
 exports.pint = {
   ios: iosPintSvg,
-  md: mdPintSvg
+  md: mdPintSvg,
 };
 exports.pizza = {
   ios: iosPizzaSvg,
-  md: mdPizzaSvg
+  md: mdPizzaSvg,
 };
 exports.planet = {
   ios: iosPlanetSvg,
-  md: mdPlanetSvg
+  md: mdPlanetSvg,
 };
 exports.play = {
   ios: iosPlaySvg,
-  md: mdPlaySvg
+  md: mdPlaySvg,
 };
 exports.playCircle = {
   ios: iosPlayCircleSvg,
-  md: mdPlayCircleSvg
+  md: mdPlayCircleSvg,
 };
 exports.podium = {
   ios: iosPodiumSvg,
-  md: mdPodiumSvg
+  md: mdPodiumSvg,
 };
 exports.power = {
   ios: iosPowerSvg,
-  md: mdPowerSvg
+  md: mdPowerSvg,
 };
 exports.pricetag = {
   ios: iosPricetagSvg,
-  md: mdPricetagSvg
+  md: mdPricetagSvg,
 };
 exports.pricetags = {
   ios: iosPricetagsSvg,
-  md: mdPricetagsSvg
+  md: mdPricetagsSvg,
 };
 exports.print = {
   ios: iosPrintSvg,
-  md: mdPrintSvg
+  md: mdPrintSvg,
 };
 exports.pulse = {
   ios: iosPulseSvg,
-  md: mdPulseSvg
+  md: mdPulseSvg,
 };
 exports.qrScanner = {
   ios: iosQrScannerSvg,
-  md: mdQrScannerSvg
+  md: mdQrScannerSvg,
 };
 exports.quote = {
   ios: iosQuoteSvg,
-  md: mdQuoteSvg
+  md: mdQuoteSvg,
 };
 exports.radio = {
   ios: iosRadioSvg,
-  md: mdRadioSvg
+  md: mdRadioSvg,
 };
 exports.radioButtonOff = {
   ios: iosRadioButtonOffSvg,
-  md: mdRadioButtonOffSvg
+  md: mdRadioButtonOffSvg,
 };
 exports.radioButtonOn = {
   ios: iosRadioButtonOnSvg,
-  md: mdRadioButtonOnSvg
+  md: mdRadioButtonOnSvg,
 };
 exports.rainy = {
   ios: iosRainySvg,
-  md: mdRainySvg
+  md: mdRainySvg,
 };
 exports.recording = {
   ios: iosRecordingSvg,
-  md: mdRecordingSvg
+  md: mdRecordingSvg,
 };
 exports.redo = {
   ios: iosRedoSvg,
-  md: mdRedoSvg
+  md: mdRedoSvg,
 };
 exports.refresh = {
   ios: iosRefreshSvg,
-  md: mdRefreshSvg
+  md: mdRefreshSvg,
 };
 exports.refreshCircle = {
   ios: iosRefreshCircleSvg,
-  md: mdRefreshCircleSvg
+  md: mdRefreshCircleSvg,
 };
 exports.remove = {
   ios: iosRemoveSvg,
-  md: mdRemoveSvg
+  md: mdRemoveSvg,
 };
 exports.removeCircle = {
   ios: iosRemoveCircleSvg,
-  md: mdRemoveCircleSvg
+  md: mdRemoveCircleSvg,
 };
 exports.removeCircleOutline = {
   ios: iosRemoveCircleOutlineSvg,
-  md: mdRemoveCircleOutlineSvg
+  md: mdRemoveCircleOutlineSvg,
 };
 exports.reorder = {
   ios: iosReorderSvg,
-  md: mdReorderSvg
+  md: mdReorderSvg,
 };
 exports.repeat = {
   ios: iosRepeatSvg,
-  md: mdRepeatSvg
+  md: mdRepeatSvg,
 };
 exports.resize = {
   ios: iosResizeSvg,
-  md: mdResizeSvg
+  md: mdResizeSvg,
 };
 exports.restaurant = {
   ios: iosRestaurantSvg,
-  md: mdRestaurantSvg
+  md: mdRestaurantSvg,
 };
 exports.returnLeft = {
   ios: iosReturnLeftSvg,
-  md: mdReturnLeftSvg
+  md: mdReturnLeftSvg,
 };
 exports.returnRight = {
   ios: iosReturnRightSvg,
-  md: mdReturnRightSvg
+  md: mdReturnRightSvg,
 };
 exports.reverseCamera = {
   ios: iosReverseCameraSvg,
-  md: mdReverseCameraSvg
+  md: mdReverseCameraSvg,
 };
 exports.rewind = {
   ios: iosRewindSvg,
-  md: mdRewindSvg
+  md: mdRewindSvg,
 };
 exports.ribbon = {
   ios: iosRibbonSvg,
-  md: mdRibbonSvg
+  md: mdRibbonSvg,
 };
 exports.rocket = {
   ios: iosRocketSvg,
-  md: mdRocketSvg
+  md: mdRocketSvg,
 };
 exports.rose = {
   ios: iosRoseSvg,
-  md: mdRoseSvg
+  md: mdRoseSvg,
 };
 exports.sad = {
   ios: iosSadSvg,
-  md: mdSadSvg
+  md: mdSadSvg,
 };
 exports.save = {
   ios: iosSaveSvg,
-  md: mdSaveSvg
+  md: mdSaveSvg,
 };
 exports.school = {
   ios: iosSchoolSvg,
-  md: mdSchoolSvg
+  md: mdSchoolSvg,
 };
 exports.search = {
   ios: iosSearchSvg,
-  md: mdSearchSvg
+  md: mdSearchSvg,
 };
 exports.send = {
   ios: iosSendSvg,
-  md: mdSendSvg
+  md: mdSendSvg,
 };
 exports.settings = {
   ios: iosSettingsSvg,
-  md: mdSettingsSvg
+  md: mdSettingsSvg,
 };
 exports.share = {
   ios: iosShareSvg,
-  md: mdShareSvg
+  md: mdShareSvg,
 };
 exports.shareAlt = {
   ios: iosShareAltSvg,
-  md: mdShareAltSvg
+  md: mdShareAltSvg,
 };
 exports.shirt = {
   ios: iosShirtSvg,
-  md: mdShirtSvg
+  md: mdShirtSvg,
 };
 exports.shuffle = {
   ios: iosShuffleSvg,
-  md: mdShuffleSvg
+  md: mdShuffleSvg,
 };
 exports.skipBackward = {
   ios: iosSkipBackwardSvg,
-  md: mdSkipBackwardSvg
+  md: mdSkipBackwardSvg,
 };
 exports.skipForward = {
   ios: iosSkipForwardSvg,
-  md: mdSkipForwardSvg
+  md: mdSkipForwardSvg,
 };
 exports.snow = {
   ios: iosSnowSvg,
-  md: mdSnowSvg
+  md: mdSnowSvg,
 };
 exports.speedometer = {
   ios: iosSpeedometerSvg,
-  md: mdSpeedometerSvg
+  md: mdSpeedometerSvg,
 };
 exports.square = {
   ios: iosSquareSvg,
-  md: mdSquareSvg
+  md: mdSquareSvg,
 };
 exports.squareOutline = {
   ios: iosSquareOutlineSvg,
-  md: mdSquareOutlineSvg
+  md: mdSquareOutlineSvg,
 };
 exports.star = {
   ios: iosStarSvg,
-  md: mdStarSvg
+  md: mdStarSvg,
 };
 exports.starHalf = {
   ios: iosStarHalfSvg,
-  md: mdStarHalfSvg
+  md: mdStarHalfSvg,
 };
 exports.starOutline = {
   ios: iosStarOutlineSvg,
-  md: mdStarOutlineSvg
+  md: mdStarOutlineSvg,
 };
 exports.stats = {
   ios: iosStatsSvg,
-  md: mdStatsSvg
+  md: mdStatsSvg,
 };
 exports.stopwatch = {
   ios: iosStopwatchSvg,
-  md: mdStopwatchSvg
+  md: mdStopwatchSvg,
 };
 exports.subway = {
   ios: iosSubwaySvg,
-  md: mdSubwaySvg
+  md: mdSubwaySvg,
 };
 exports.sunny = {
   ios: iosSunnySvg,
-  md: mdSunnySvg
+  md: mdSunnySvg,
 };
 exports.swap = {
   ios: iosSwapSvg,
-  md: mdSwapSvg
+  md: mdSwapSvg,
 };
 exports.switcher = {
   ios: iosSwitchSvg,
-  md: mdSwitchSvg
+  md: mdSwitchSvg,
 };
 exports.sync = {
   ios: iosSyncSvg,
-  md: mdSyncSvg
+  md: mdSyncSvg,
 };
 exports.tabletLandscape = {
   ios: iosTabletLandscapeSvg,
-  md: mdTabletLandscapeSvg
+  md: mdTabletLandscapeSvg,
 };
 exports.tabletPortrait = {
   ios: iosTabletPortraitSvg,
-  md: mdTabletPortraitSvg
+  md: mdTabletPortraitSvg,
 };
 exports.tennisball = {
   ios: iosTennisballSvg,
-  md: mdTennisballSvg
+  md: mdTennisballSvg,
 };
 exports.text = {
   ios: iosTextSvg,
-  md: mdTextSvg
+  md: mdTextSvg,
 };
 exports.thermometer = {
   ios: iosThermometerSvg,
-  md: mdThermometerSvg
+  md: mdThermometerSvg,
 };
 exports.thumbsDown = {
   ios: iosThumbsDownSvg,
-  md: mdThumbsDownSvg
+  md: mdThumbsDownSvg,
 };
 exports.thumbsUp = {
   ios: iosThumbsUpSvg,
-  md: mdThumbsUpSvg
+  md: mdThumbsUpSvg,
 };
 exports.thunderstorm = {
   ios: iosThunderstormSvg,
-  md: mdThunderstormSvg
+  md: mdThunderstormSvg,
 };
 exports.time = {
   ios: iosTimeSvg,
-  md: mdTimeSvg
+  md: mdTimeSvg,
 };
 exports.timer = {
   ios: iosTimerSvg,
-  md: mdTimerSvg
+  md: mdTimerSvg,
 };
 exports.today = {
   ios: iosTodaySvg,
-  md: mdTodaySvg
+  md: mdTodaySvg,
 };
 exports.train = {
   ios: iosTrainSvg,
-  md: mdTrainSvg
+  md: mdTrainSvg,
 };
 exports.transgender = {
   ios: iosTransgenderSvg,
-  md: mdTransgenderSvg
+  md: mdTransgenderSvg,
 };
 exports.trash = {
   ios: iosTrashSvg,
-  md: mdTrashSvg
+  md: mdTrashSvg,
 };
 exports.trendingDown = {
   ios: iosTrendingDownSvg,
-  md: mdTrendingDownSvg
+  md: mdTrendingDownSvg,
 };
 exports.trendingUp = {
   ios: iosTrendingUpSvg,
-  md: mdTrendingUpSvg
+  md: mdTrendingUpSvg,
 };
 exports.trophy = {
   ios: iosTrophySvg,
-  md: mdTrophySvg
+  md: mdTrophySvg,
 };
 exports.tv = {
   ios: iosTvSvg,
-  md: mdTvSvg
+  md: mdTvSvg,
 };
 exports.umbrella = {
   ios: iosUmbrellaSvg,
-  md: mdUmbrellaSvg
+  md: mdUmbrellaSvg,
 };
 exports.undo = {
   ios: iosUndoSvg,
-  md: mdUndoSvg
+  md: mdUndoSvg,
 };
 exports.unlock = {
   ios: iosUnlockSvg,
-  md: mdUnlockSvg
+  md: mdUnlockSvg,
 };
 exports.videocam = {
   ios: iosVideocamSvg,
-  md: mdVideocamSvg
+  md: mdVideocamSvg,
 };
 exports.volumeHigh = {
   ios: iosVolumeHighSvg,
-  md: mdVolumeHighSvg
+  md: mdVolumeHighSvg,
 };
 exports.volumeLow = {
   ios: iosVolumeLowSvg,
-  md: mdVolumeLowSvg
+  md: mdVolumeLowSvg,
 };
 exports.volumeMute = {
   ios: iosVolumeMuteSvg,
-  md: mdVolumeMuteSvg
+  md: mdVolumeMuteSvg,
 };
 exports.volumeOff = {
   ios: iosVolumeOffSvg,
-  md: mdVolumeOffSvg
+  md: mdVolumeOffSvg,
 };
 exports.walk = {
   ios: iosWalkSvg,
-  md: mdWalkSvg
+  md: mdWalkSvg,
 };
 exports.wallet = {
   ios: iosWalletSvg,
-  md: mdWalletSvg
+  md: mdWalletSvg,
 };
 exports.warning = {
   ios: iosWarningSvg,
-  md: mdWarningSvg
+  md: mdWarningSvg,
 };
 exports.watch = {
   ios: iosWatchSvg,
-  md: mdWatchSvg
+  md: mdWatchSvg,
 };
 exports.water = {
   ios: iosWaterSvg,
-  md: mdWaterSvg
+  md: mdWaterSvg,
 };
 exports.wifi = {
   ios: iosWifiSvg,
-  md: mdWifiSvg
+  md: mdWifiSvg,
 };
 exports.wine = {
   ios: iosWineSvg,
-  md: mdWineSvg
+  md: mdWineSvg,
 };
 exports.woman = {
   ios: iosWomanSvg,
-  md: mdWomanSvg
+  md: mdWomanSvg,
 };

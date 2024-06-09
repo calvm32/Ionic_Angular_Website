@@ -13,8 +13,8 @@ import { AboutPageRoutingModule } from './about-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    AboutPageRoutingModule
+    AboutPageRoutingModule,
   ],
-  declarations: [AboutPage]
+  declarations: [AboutPage],
 })
 export class AboutPageModule {}

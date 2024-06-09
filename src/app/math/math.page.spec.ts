@@ -12,7 +12,7 @@ describe('MathPage', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [MathPage],
-      imports: [IonicModule.forRoot(), ExploreContainerComponentModule]
+      imports: [IonicModule.forRoot(), ExploreContainerComponentModule],
     }).compileComponents();
 
     fixture = TestBed.createComponent(MathPage);

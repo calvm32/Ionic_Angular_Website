@@ -5,12 +5,10 @@ register();
 @Component({
   selector: 'app-home',
   templateUrl: 'art.page.html',
-  styleUrls: ['art.page.scss']
+  styleUrls: ['art.page.scss'],
 })
 export class ArtPage {
-
-  constructor() {
-  }
+  constructor() {}
 
   ionViewWillEnter() {
     const params = {
@@ -33,20 +31,21 @@ export class ArtPage {
             background-color: black;
           }
       `,
-      ]
-    }
+      ],
+    };
 
     for (var i: number = 1; i < 12; i++) {
-      var swiperRef: SwiperContainer | null = document.querySelector('swiper-container#container'+i)
+      var swiperRef: SwiperContainer | null = document.querySelector(
+        'swiper-container#container' + i,
+      );
 
       if (swiperRef) {
-        Object.assign(swiperRef, params)
-        swiperRef?.initialize()
-        console.log("not null")
+        Object.assign(swiperRef, params);
+        swiperRef?.initialize();
+        console.log('not null');
       } else {
-        console.log("null")
+        console.log('null');
       }
     }
-
   }
 }

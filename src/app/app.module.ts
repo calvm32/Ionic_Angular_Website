@@ -8,12 +8,11 @@ import { RouterModule } from '@angular/router';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
-declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   bootstrap: [AppComponent],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy, }],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   exports: [RouterModule],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-
-export class AppModule { }
+export class AppModule {}

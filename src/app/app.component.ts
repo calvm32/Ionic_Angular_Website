@@ -9,15 +9,11 @@ register();
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
-
 export class AppComponent {
   constructor(
     private renderer2: Renderer2,
-    @Inject(DOCUMENT) private document:Document
-    ){
-  }    
+    @Inject(DOCUMENT) private document: Document,
+  ) {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

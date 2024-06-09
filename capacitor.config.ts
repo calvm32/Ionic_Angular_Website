@@ -5,8 +5,8 @@ const config: AngularConfig = {
   appName: 'Website_V3',
   webDir: 'www',
   server: {
-    androidScheme: 'https'
-  }
+    androidScheme: 'https',
+  },
 };
 
 export default config;

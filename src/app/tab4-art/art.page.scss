@@ -1,0 +1,72 @@
+.margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.headmargin {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+
+.txtmargin {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.horizontal-swiper {
+  height: 100%;
+  align-items: center;
+}
+
+.full-screen-image {
+  height: auto;
+  object-fit: cover;
+}
+
+.scaled-image {
+  height: 100%;
+  max-height: 160px;
+  height: auto;
+}
+
+.ion-padding {
+  padding: 16px;
+}
+
+div {
+  text-align: center;
+}
+
+ion-col {
+  display: flex;
+  size: auto;
+}
+
+ion-card {
+  padding: 5px;
+  width: 360px;
+  margin: auto;
+}
+
+swiper-container {
+  width: 320px;
+}
+
+ion-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

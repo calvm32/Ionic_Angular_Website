@@ -1,0 +1,44 @@
+ion-col {
+  display: flex;
+  size: auto;
+}
+
+ion-card {
+  padding: 5px;
+  width: 360px;
+}
+
+swiper-container {
+  width: 320px;
+}
+
+.margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.txtmargin {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.headmargin {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.horizontal-swiper {
+  height: 100%;
+  align-items: center;
+}
+
+.full-screen-image {
+  height: auto;
+  object-fit: cover;
+}

@@ -10,44 +10,54 @@ const routes: Routes = [
       {
         path: 'home',
         loadChildren: () =>
-          import('../home/home.module').then((m) => m.HomePageModule),
+          import('../tab1-home/home.module').then((m) => m.HomePageModule),
       },
       {
         path: 'about',
         loadChildren: () =>
-          import('../about/about.module').then((m) => m.AboutPageModule),
+          import('../tab2-about/about.module').then((m) => m.AboutPageModule),
       },
       {
         path: 'math',
         loadChildren: () =>
-          import('../math/math.module').then((m) => m.MathPageModule),
+          import('../tab3-math/math.module').then((m) => m.MathPageModule),
       },
       {
         path: 'math/constructions',
         loadChildren: () =>
-          import('../tab3/tab3.module').then((m) => m.Tab3PageModule),
+          import('../tab3.1-const/const.module').then((m) => m.ConstPageModule),
       },
       {
         path: 'math/question',
         loadChildren: () =>
-          import('../tab7/tab7.module').then((m) => m.Tab7PageModule),
+          import('../tab3.2-problem/problem.module').then((m) => m.ProblemPageModule),
       },
       {
         path: 'math/research',
         loadChildren: () =>
-          import('../research/research.module').then(
+          import('../tab3.3-research/research.module').then(
             (m) => m.ResearchPageModule,
           ),
       },
       {
         path: 'art',
         loadChildren: () =>
-          import('../art/art.module').then((m) => m.ArtPageModule),
+          import('../tab4-art/art.module').then((m) => m.ArtPageModule),
+      },
+      {
+        path: 'art/origami',
+        loadChildren: () =>
+          import('../tab4.1-origami/origami.module').then((m) => m.OrigamiPageModule),
+      },
+      {
+        path: 'art/traditional',
+        loadChildren: () =>
+          import('../tab4.2-traditional/traditional.module').then((m) => m.TraditionalPageModule),
       },
       {
         path: 'photos',
         loadChildren: () =>
-          import('../photos/photos.module').then((m) => m.PhotosPageModule),
+          import('../tab5-photos/photos.module').then((m) => m.PhotosPageModule),
       },
       {
         path: '',

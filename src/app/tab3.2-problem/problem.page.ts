@@ -4,10 +4,10 @@ export class DirectivesModule {}
 
 @Component({
   selector: 'app-home',
-  templateUrl: 'tab7.page.html',
-  styleUrls: ['tab7.page.scss'],
+  templateUrl: 'problem.page.html',
+  styleUrls: ['problem.page.scss'],
 })
-export class Tab7Page {
+export class ProblemPage {
   q1 = String.raw`Suppose $a,b,c \in \mathbb{R}$ so that $a+b+c=1$, $a,b,c \geq 0$. Show $ab+ac+bc \leq \frac{1}{3}$. This is an interesting question anyone can understand. Find the maximum of a sum of products given a certain condition. Due to its symmetric nature, this problem is rich in solutions. Below are a few I and others have found. Can you find more?`;
   lm = String.raw`We will find the maximum of $f(a,b,c)=ab+ac+bc$ given $g(a,b,c)=a+b+c-1=0$ using Lagrange multipliers. Then 
     \begin{align*}

@@ -2,10 +2,10 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab7Page } from './tab7.page';
+import { ConstPage } from './const.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { Tab7PageRoutingModule } from './tab7-routing.module';
+import { ConstPageRoutingModule } from './const-routing.module';
 
 @NgModule({
   imports: [
@@ -13,8 +13,8 @@ import { Tab7PageRoutingModule } from './tab7-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab7PageRoutingModule,
+    ConstPageRoutingModule,
   ],
-  declarations: [Tab7Page],
+  declarations: [ConstPage],
 })
-export class Tab7PageModule {}
+export class ConstPageModule {}

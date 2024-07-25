@@ -1,70 +1,57 @@
 <ion-content [fullscreen]="true">
-  <ion-content [fullscreen]="true">
-    <h1 align="center" class="headmargin">
-      <font size="+3"> <strong> Math Explorations </strong></font>
-    </h1>
-    <h2 align="center" class="margin">
-      <font size="+1"> Gaining a Deeper Understanding of Mathematics </font>
-    </h2>
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <!-- 1.1 -->
-          <div>
-            <ion-card style="height: 280px">
-              <ion-card-content>
-                <img src="/assets/icon/shapeicon.jpg" height="200px" />
-                <ion-button href="math/constructions">
-                  Constructions
-                </ion-button>
-              </ion-card-content>
-            </ion-card>
-          </div>
-        </ion-col>
-        <ion-col>
-          <!-- 1.2 -->
-          <div>
-            <ion-card style="height: 280px">
-              <ion-card-content>
-                <img
-                  src="/assets/Math Images/IQ.jpg"
-                  style="
-                    height: 100px;
-                    vertical-align: center;
-                    margin-top: 20px;
-                    margin-bottom: 30px;
-                  "
-                />
-                <ion-button href="math/question" class="vac">
-                  An Interesting Question
-                </ion-button>
-              </ion-card-content>
-            </ion-card>
-          </div>
-        </ion-col>
-        <ion-col>
-          <!-- 1.3 -->
-          <div>
-            <ion-card style="height: 280px">
-              <ion-card-content>
-                <img
-                  src="/assets/Math Images/gaghi.jpg"
-                  style="
-                    height: 160px;
-                    vertical-align: center;
-                    margin-top: 0px;
-                    margin-bottom: 20px;
-                  "
-                />
-                <ion-button href="math/research" class="gal">
-                  Galois Theory Research
-                </ion-button>
-              </ion-card-content>
-              <!--<ion-spinner name="circles" class="spinner-large"></ion-spinner>-->
-            </ion-card>
-          </div>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </ion-content></ion-content
->
+  <h1 class="heading" align="center">Math Explorations</h1>
+  <h2 class="subheading" align="center">
+    Gaining a Deeper Understanding of Mathematics
+  </h2>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <!-- 1.1 -->
+        <div>
+          <ion-card>
+            <ion-card-content>
+              <img src="/assets/icon/shapeicon.jpg" height="200px" />
+              <ion-button href="math/constructions"> Constructions </ion-button>
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col>
+        <!-- 1.2 -->
+        <div>
+          <ion-card>
+            <ion-card-content>
+              <ion-card-header
+                ><div class="bigtext">{{ q1 }}</div></ion-card-header
+              >
+              <ion-button href="math/question">
+                An Interesting Question
+              </ion-button>
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col>
+        <!-- 1.3 -->
+        <div>
+          <ion-card>
+            <ion-card-content>
+              <img
+                src="/assets/Math Images/gaghi.jpg"
+                style="
+                  height: 160px;
+                  vertical-align: center;
+                  margin-top: 0px;
+                  margin-bottom: 20px;
+                "
+              />
+              <ion-button href="math/research">
+                Galois Theory Research
+              </ion-button>
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

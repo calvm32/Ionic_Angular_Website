@@ -1,42 +1,40 @@
-<ion-header>
-  <ion-toolbar>
-    <div
-      style="
-        text-align: center;
-        margin-bottom: 24px;
-        height: 20px;
-        line-height: 20px;
-      "
-    >
+<ion-footer class="ion-no-border">
+  <ion-toolbar color="tertiary">
+    <div class="toolbar">
       <ion-button href="math" class="button">
         <ion-icon name="arrow-undo-outline"></ion-icon>
       </ion-button>
     </div>
   </ion-toolbar>
-</ion-header>
+</ion-footer>
+
 <ion-content [fullscreen]="true">
-  <h1 align="center" class="headmargin">
-    <font size="+3"> <strong> An Interesting Question </strong></font>
-  </h1>
+  <h1 class="heading" align="center">An Interesting Question</h1>
   <div class="question">{{ q1 }}</div>
 
   <ion-item-divider></ion-item-divider>
-  <div class="subhead">Lagrange Multipliers (Calum Heldt):</div>
+  <div class="subheading" align="center">
+    Lagrange Multipliers (Calum Heldt):
+  </div>
   <ion-item-divider></ion-item-divider>
-  <div class="margin">{{ lm }}</div>
+  <div class="normaltext">{{ lm }}</div>
 
   <ion-item-divider></ion-item-divider>
-  <div class="subhead">Cauchy-Schwarz Inequality (Calum Heldt):</div>
+  <div class="subheading" align="center">
+    Cauchy-Schwarz Inequality (Calum Heldt):
+  </div>
   <ion-item-divider></ion-item-divider>
-  <div class="margin">{{ cs }}</div>
+  <div class="normaltext">{{ cs }}</div>
 
   <ion-item-divider></ion-item-divider>
-  <div class="subhead">Angles Between Vectors (Calum Heldt):</div>
+  <div class="subheading" align="center">
+    Angles Between Vectors (Calum Heldt):
+  </div>
   <ion-item-divider></ion-item-divider>
-  <div class="margin">{{ av }}</div>
+  <div class="normaltext">{{ av }}</div>
 
   <ion-item-divider></ion-item-divider>
-  <div class="subhead">Polynomial Roots (Dr. Griff Elder):</div>
+  <div class="subhead" align="center">Polynomial Roots (Dr. Griff Elder):</div>
   <ion-item-divider></ion-item-divider>
-  <div class="margin">{{ pr }}</div>
+  <div class="normaltex">{{ pr }}</div>
 </ion-content>

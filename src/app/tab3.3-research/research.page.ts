@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class ResearchPage {
   p6 = String.raw`$p^6$`;
   p5 = String.raw`$p^5$`;
+  
   constructor() {}
 
   ionViewDidEnter() {

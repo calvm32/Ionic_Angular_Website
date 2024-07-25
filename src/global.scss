@@ -1,14 +1,3 @@
-/*
- * App Global CSS
- * ----------------------------------------------------------------------------
- * Put style rules here that you want to apply globally. These styles are for
- * the entire app and not just one component. Additionally, this file can be
- * used as an entry point to import other CSS/Sass files to be included in the
- * output CSS.
- * For more information on global stylesheets, visit the documentation:
- * https://ionicframework.com/docs/layout/global-stylesheets
- */
-
 /* Core CSS required for Ionic components to work properly */
 @import "@ionic/angular/css/core.css";
 
@@ -24,3 +13,46 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+.heading {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  color: var(--ion-color-primary);
+  font-size: clamp(1.4rem, 5vw - 0.1rem, 2.5rem); 
+  font-weight: bold;
+}
+
+.subheading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  color: var(--ion-color-primary); 
+  font-size: clamp(0.8rem, 4vw - 0.2rem, 1.5rem); 
+  font-weight: 300;
+}
+
+.bigtext {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  font-size: clamp(0.6rem, 4vw - 0.2rem, 1.2rem);
+}
+
+.normaltext {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  font-size: clamp(0.4rem, 4vw - 0.2rem, 1rem); /* Adjusted font size */
+}
+
+.toolbar {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem; 
+    background-color: var(--ion-color-tertiary);
+}

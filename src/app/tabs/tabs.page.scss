@@ -1,15 +1,15 @@
 .tabbar {
   tab-size: 2cm;
   height: 2cm;
-  /*
-    background-color: black; 
-    color: black;
-    flood-color: black;
-    */
+  background-color: var(--ion-color-bg);
+}
+
+.tab-button {
+  background-color: var(--ion-color-bg);
 }
 
 .icon {
-  color: green;
+  color: var(--ion-color-primary);
 }
 
 .label {

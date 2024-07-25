@@ -1,38 +1,37 @@
-<ion-header>
-  <ion-toolbar>
-    <div
-      style="
-        text-align: center;
-        margin-bottom: 24px;
-        height: 20px;
-        line-height: 20px;
-      "
-    >
-      <ion-button href="math" class="button">
+<ion-footer class="ion-no-border">
+  <ion-toolbar color="tertiary">
+    <div class="toolbar">
+      <ion-button class="button" href="math">
         <ion-icon name="arrow-undo-outline"></ion-icon>
       </ion-button>
     </div>
   </ion-toolbar>
-</ion-header>
+</ion-footer>
 <ion-content [fullscreen]="true">
-  <h1 align="center" class="headmargin">
-    <font size="+3"> <strong> Galois Theory Research </strong></font>
-  </h1>
-  <div class="headmargin">
-    <font size="+1">
-      My current research is using Artin-Schreier presentations to classify Galois extensions of degree {{ p6 }} and {{ p5 }}
-      and maximal nilpotency class over a field of characteristic <i>p</i>, for some prime <i>p</i>. From May 2023-24, 
-      I was funded by the NASA Nebraska Space Grant. My profile is featured
-      on the NASA Nebraska Space Grant website
-      <a href="https://www.nespacegrant.org/students-2023-2024" target="_blank" >here</a>.
-    </font>
+  <h1 class="heading" align="center">Galois Theory Research</h1>
+  <div class="normaltext">
+    My current research is using Artin-Schreier presentations to classify Galois
+    extensions of degree {{ p6 }} and {{ p5 }} and maximal nilpotency class over
+    a field of characteristic <i>p</i>, for some prime <i>p</i>. From May
+    2023-24, I was funded by the NASA Nebraska Space Grant. My profile is
+    featured on the NASA Nebraska Space Grant website
+    <a href="https://www.nespacegrant.org/students-2023-2024" target="_blank"
+      >here</a
+    >.
   </div>
-  <div class="headmargin">
-    <font size="+1">
-      On May 31st, 2024, I presented at the annual Hopf Algebras and Galois Module Theory Conference in Omaha, Nebraska. A recording
-      of my presentation and the poster can be found 
-      <a href="http://www.hopf-galois.org/2024Omaha/index.html" target="_blank" >here</a>.
-    </font>
+  <div class="normaltext">
+    On May 31st, 2024, I presented at the annual Hopf Algebras and Galois Module
+    Theory Conference in Omaha, Nebraska. The official website can be found
+    <a href="http://www.hopf-galois.org/2024Omaha/index.html" target="_blank"
+      >here</a
+    >. Below are the slides and a video of me presenting them to the audience at
+    the Omaha 2024 conference.
+    <div align="center">
+      <iframe class="pdf-viewer" src="assets/Research/Heldt.pdf"></iframe>
+      <video controls>
+        <source src="assets/Research/Heldt.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </div>
-
 </ion-content>

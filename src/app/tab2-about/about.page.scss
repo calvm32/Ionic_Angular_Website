@@ -1,11 +1,26 @@
-.image {
-  max-height: 300px;
+.image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-ion-card {
-  --font-size: "+1";
+.responsive-image {
+  width: 100%;
+  max-width: 600px;
+  max-height: 500px; 
 }
 
-ion-card-title {
-  --font-size: "+2";
+@media (min-width: 992px) {
+  .responsive-image {
+      max-width: 600px;
+  }
+}
+
+@media (max-width: 992px) {
+  .subheading, .heading {
+      margin-right: 2vw;
+      margin-left: 2vw;
+  }
 }

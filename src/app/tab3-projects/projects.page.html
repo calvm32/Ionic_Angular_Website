@@ -1,68 +1,67 @@
 <ion-content [fullscreen]="true">
-  <div class="ion-padding">
     <h1 align="center" class="heading">Personal Projects</h1>
     <h2 align="center" class="subheading">Various personal works and explorations.</h2>
 
     <ion-grid>
-      <ion-row class="ion-justify-content-center">
+      <ion-row>
+
         <ion-col>
-          <div>
-            <ion-card>
-              <ion-card-content>
-                <img src="/assets/icon/shapeicon.jpg" height="200px" />
-                <ion-button href="projects/constructions"> Constructions </ion-button>
-              </ion-card-content>
-            </ion-card>
-          </div>
-        </ion-col>
-        <ion-col size="auto">
           <ion-card>
             <ion-card-content>
-              <img
-                class="scaled-image"
-                src="/assets/Origami Images/RhombicTri1-removebg.png"
-              />
+              <img src="/assets/Origami Images/RhombicTri1-removebg.png" />
+              <ion-button href="projects/origami"> Origami </ion-button>
             </ion-card-content>
-            <ion-button href="projects/origami"> Origami </ion-button>
           </ion-card>
         </ion-col>
+
         <ion-col>
-          <div>
-            <ion-card>
-              <ion-card-content>
-                <ion-card-header
-                  ><div class="bigtext">{{ q1 }}</div></ion-card-header
-                >
-                <ion-button href="projects/question">
-                  An Interesting Question
-                </ion-button>
-              </ion-card-content>
-            </ion-card>
-          </div>
-        </ion-col>
-        <ion-col size="auto">
           <ion-card>
             <ion-card-content>
-              <img
-                class="scaled-image"
-                src="/assets/Nature Images/BoleteCap1.png"
-              />
+              <img class="tinted" src="/assets/Math Images/MaVS-RemoveBG.png" />
+              <ion-button href="https://www.mavs.uno" target="_blank">
+               Modeling and Visualizing STEM </ion-button>
             </ion-card-content>
-            <ion-button href="projects/photos"> Photography </ion-button>
           </ion-card>
         </ion-col>
-        <ion-col size="auto">
+
+        <ion-col>
           <ion-card>
             <ion-card-content>
-              <img
-                class="scaled-image"
-                src="/assets/Art Images/Background.png"
-              />
+              <img src="/assets/icon/shapeicon.jpg" />
+              <ion-button href="projects/constructions"> Constructions </ion-button>
             </ion-card-content>
-            <ion-button href="projects/traditional-art"> Traditional Art </ion-button>
           </ion-card>
         </ion-col>
+
+        <ion-col>
+          <ion-card>
+            <ion-card-content>
+              <ion-card-header>
+                <div class="subheading" class="text">{{ q1 }}</div>
+              </ion-card-header>
+              <ion-button href="projects/problem"> An Interesting Question </ion-button>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col>
+          <ion-card>
+            <ion-card-content>
+              <img src="/assets/Nature Images/Cows2.jpg"/>
+              <ion-button href="projects/photos"> Photography </ion-button>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col>
+          <ion-card>
+            <ion-card-content>
+              <img src="/assets/Art Images/Background.png"/>
+              <ion-button href="projects/traditional"> Traditional Art </ion-button>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
       </ion-row>
     </ion-grid>
-  </div>
 </ion-content>

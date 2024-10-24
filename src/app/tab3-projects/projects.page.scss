@@ -1,49 +1,17 @@
-.image {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 120px;
-}
-
-.horizontal-swiper {
-  height: 100%;
+ion-col {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.full-screen-image {
-  height: auto;
-  object-fit: cover;
-}
-
-.scaled-image {
-  height: 100%;
-  max-height: 160px;
-  height: auto;
-}
-
-.ion-padding {
-  padding: 16px;
-}
-
-div {
-  text-align: center;
-}
-
-ion-col {
-  display: flex;
-  size: auto;
-  margin-left: 16px;
-  margin-right: 16px;
+ion-row {
+  justify-content: center;
 }
 
 ion-card {
   padding: 5px;
   width: 360px;
-  margin: auto;
-  background-color: var(--ion-color-bg);
-}
-
-swiper-container {
-  width: 320px;
+  background-color: var(--ion-color-bg)
 }
 
 ion-content {
@@ -51,4 +19,14 @@ ion-content {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.text {
+  font-size: 1.4rem;
+  margin: 0; 
+  padding: 5px;
+}
+
+.tinted {
+  filter: grayscale(40%) brightness(70%) opacity(80%) saturate(200%) sepia(8%);
 }

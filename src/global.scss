@@ -16,7 +16,7 @@
 
 .heading {
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-right: 4vw;
   margin-left: 4vw;
   color: var(--ion-color-primary);
@@ -55,4 +55,8 @@
     margin-bottom: 1.5rem;
     padding: 0.5rem; 
     background-color: var(--ion-color-tertiary);
+}
+
+ion-footer {
+  height: 60px;
 }

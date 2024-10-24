@@ -4,21 +4,11 @@ ion-col {
   align-items: center;
 }
 
+ion-row {
+  justify-content: center;
+}
+
 ion-card {
   padding: 5px;
   width: 360px;
-}
-
-swiper-container {
-  width: 320px;
-}
-
-.horizontal-swiper {
-  height: 100%;
-  align-items: center;
-}
-
-.full-screen-image {
-  height: auto;
-  object-fit: cover;
 }

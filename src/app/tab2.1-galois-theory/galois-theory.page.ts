@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  templateUrl: 'galoistheory.page.html',
-  styleUrls: ['galoistheory.page.scss'],
+  templateUrl: 'galois-theory.page.html',
+  styleUrls: ['galois-theory.page.scss'],
 })
 export class GaloisTheoryPage {
   p6 = String.raw`$p^6$`;

@@ -13,51 +13,46 @@ const routes: Routes = [
           import('../tab1-home/home.module').then((m) => m.HomePageModule),
       },
       {
-        path: 'about',
+        path: 'research',
         loadChildren: () =>
-          import('../tab2-about/about.module').then((m) => m.AboutPageModule),
+          import('../tab2-research/research.module').then((m) => m.ResearchPageModule),
       },
       {
-        path: 'math',
+        path: 'research/galois-theory',
         loadChildren: () =>
-          import('../tab3-math/math.module').then((m) => m.MathPageModule),
+          import('../tab2.1-galois-theory/galois-theory.module').then((m) => m.GaloisTheoryPageModule),
       },
       {
-        path: 'math/constructions',
+        path: 'projects',
         loadChildren: () =>
-          import('../tab3.1-const/const.module').then((m) => m.ConstPageModule),
+          import('../tab3-projects/projects.module').then((m) => m.ProjectsPageModule),
       },
       {
-        path: 'math/question',
+        path: 'projects/constructions',
         loadChildren: () =>
-          import('../tab3.2-problem/problem.module').then((m) => m.ProblemPageModule),
-      },
-      {
-        path: 'math/research',
-        loadChildren: () =>
-          import('../tab3.3-research/research.module').then(
-            (m) => m.ResearchPageModule,
+          import('../tab3.1-const/const.module').then(
+            (m) => m.ConstPageModule,
           ),
       },
       {
-        path: 'art',
+        path: 'projects/origami',
         loadChildren: () =>
-          import('../tab4-art/art.module').then((m) => m.ArtPageModule),
+          import('../tab3.2-origami/origami.module').then((m) => m.OrigamiPageModule),
       },
       {
-        path: 'art/origami',
+        path: 'projects/problem',
         loadChildren: () =>
-          import('../tab4.1-origami/origami.module').then((m) => m.OrigamiPageModule),
+          import('../tab3.3-problem/problem.module').then((m) => m.ProblemPageModule),
       },
       {
-        path: 'art/traditional',
+        path: 'projects/photos',
         loadChildren: () =>
-          import('../tab4.2-traditional/traditional.module').then((m) => m.TraditionalPageModule),
+          import('../tab3.4-photos/photos.module').then((m) => m.PhotosPageModule),
       },
       {
-        path: 'photos',
+        path: 'projects/traditional',
         loadChildren: () =>
-          import('../tab5-photos/photos.module').then((m) => m.PhotosPageModule),
+          import('../tab3.5-traditional/traditional.module').then((m) => m.TraditionalPageModule),
       },
       {
         path: '',

@@ -4,11 +4,18 @@ register();
 
 @Component({
   selector: 'app-home',
-  templateUrl: 'art.page.html',
-  styleUrls: ['art.page.scss'],
+  templateUrl: 'projects.page.html',
+  styleUrls: ['projects.page.scss'],
 })
-export class ArtPage {
+export class ProjectsPage {
+
+  q1 = String.raw`Suppose $a,b,c \in \mathbb{R}$ so that $a+b+c=1$, $a,b,c \geq 0$. Show $ab+ac+bc \leq \frac{1}{3}$. `;
+  
   constructor() {}
+
+  ionViewDidEnter() {
+    eval('ResearchJax.Hub.Queue(["Typeset", ResearchJax.Hub])');
+  }
 
   ionViewWillEnter() {
     const params = {

@@ -2,9 +2,9 @@ import { IonicModule } from '@ionic/angular';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ArtPage } from './art.page';
+import { ProjectsPage } from './projects.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
-import { ArtPageRoutingModule } from './art-routing.module';
+import { ProjectsPageRoutingModule } from './projects-routing.module';
 import { register } from 'swiper/element/bundle';
 
 register();
@@ -15,9 +15,9 @@ register();
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    ArtPageRoutingModule,
+    ProjectsPageRoutingModule,
   ],
-  declarations: [ArtPage],
+  declarations: [ProjectsPage],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class ArtPageModule {}
+export class ProjectsPageModule {}

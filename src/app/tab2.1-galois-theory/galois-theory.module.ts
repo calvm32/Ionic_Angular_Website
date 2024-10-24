@@ -2,10 +2,10 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { MathPage } from './math.page';
+import { GaloisTheoryPage } from './galois-theory.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { MathPageRoutingModule } from './math-routing.module';
+import { GaloisTheoryPageRoutingModule } from './galois-theory-routing.module';
 
 @NgModule({
   imports: [
@@ -13,8 +13,8 @@ import { MathPageRoutingModule } from './math-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    MathPageRoutingModule,
+    GaloisTheoryPageRoutingModule,
   ],
-  declarations: [MathPage],
+  declarations: [GaloisTheoryPage],
 })
-export class MathPageModule {}
+export class GaloisTheoryPageModule {}

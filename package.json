@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
-    "@ionic/angular": "^7.8.0",
+    "@ionic/angular": "^8.4.3",
     "@types/mathjax": "^0.0.39",
     "emailjs": "^4.0.3",
     "firebase": "^10.5.2",
